@@ -1,0 +1,9 @@
+1-Create todowithhook
+2-create folder in src name TodoComponent
+3-Inside ToDoComponent
+>Create one UI Name ToDoUI
+>>In ToDOUI -Input Field(text) + submit button + Iteration of array(All Input) with Map+
+checkboxInput
+>Create One controlled component name ToDoMain
+>>two useState for input field + checkbox opearion & empty array(object) for all input text
+ 
