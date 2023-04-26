@@ -1,9 +1,11 @@
-function ToDoUI({key,list,button,change}){
+function ToDoUI({data,index,remove,change,status}){
     return(
         <>
-        <ul>
-           <li id={key}>{list}<input type="checkbox" onChange={change} checked={button}/></li>
-        </ul>
+           <li style={{textDecoration:status?'line-through':'',color:status?'blue':'black'}}>{data} 
+           <i className="fa-solid fa-trash"  onClick={()=>remove(index)}></i>
+           <input type="checkbox" id={index} onChange={(e)=>change(e)}/>
+           </li>
+
         </>
     )
 }

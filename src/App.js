@@ -10,3 +10,7 @@ function App() {
 }
 
 export default App;
+/*
+   <li key={index}>{data}   <i className="fa-solid fa-trash"  
+             onClick={()=>DeleteItem(index)}></i></li> 
+*/

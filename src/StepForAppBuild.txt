@@ -1,3 +1,4 @@
+25/04/23
 1-Create todowithhook
 2-create folder in src name TodoComponent
 3-Inside ToDoComponent
@@ -6,4 +7,10 @@
 checkboxInput
 >Create One controlled component name ToDoMain
 >>two useState for input field + checkbox opearion & empty array(object) for all input text
+26/04/23
+>>Create checkbox beside list item
+>>Create event of strike through + blur on checked item
+>>move all checked item after unchecked items
+>>when unchecked done all rest item(if there are checked item) it should be move to down side in the list
+
  
