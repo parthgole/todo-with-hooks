@@ -9,8 +9,13 @@ checkboxInput
 >>two useState for input field + checkbox opearion & empty array(object) for all input text
 26/04/23
 >>Create checkbox beside list item
+Solution:Add Input checkbox in ToDoUI beside li tag
 >>Create event of strike through + blur on checked item
+solution:generate event with condition in the (ToDOUI) li tag with ternary operator for strikethrough + blur event
 >>move all checked item after unchecked items
+solution:this will return new array with help of condition equal id 
 >>when unchecked done all rest item(if there are checked item) it should be move to down side in the list
-
- 
+27/4/23
+>Delete element with delete handler
+>Some css style to DOM
+>update item value with edit handler and replace useState as temporary storage state   
